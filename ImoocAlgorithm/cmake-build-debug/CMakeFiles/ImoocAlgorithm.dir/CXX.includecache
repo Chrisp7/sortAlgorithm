@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/CP/Dropbox/code/c++/ImoocAlgorithm/SortTestHelper.h
+iostream
+-
+ctime
+-
+cassert
+-
+
+/Users/CP/Dropbox/code/c++/ImoocAlgorithm/main.cpp
+iostream
+-
+sortAlgorithm.h
+/Users/CP/Dropbox/code/c++/ImoocAlgorithm/sortAlgorithm.h
+string
+-
+SortTestHelper.h
+/Users/CP/Dropbox/code/c++/ImoocAlgorithm/SortTestHelper.h
+
+/Users/CP/Dropbox/code/c++/ImoocAlgorithm/sortAlgorithm.cpp
+sortAlgorithm.h
+/Users/CP/Dropbox/code/c++/ImoocAlgorithm/sortAlgorithm.h
+iostream
+-
+
+/Users/CP/Dropbox/code/c++/ImoocAlgorithm/sortAlgorithm.h
+iostream
+-
+
